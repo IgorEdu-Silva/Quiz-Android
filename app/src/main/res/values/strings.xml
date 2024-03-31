@@ -1,0 +1,327 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quiz</string>
+    <string name="title_activity_select_game">SelectGame</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="est_preparado">Está preparado?</string>
+    <string name="vamos_come_ar">vamos começar?</string>
+    <string name="divirta_se">Divirta-se</string>
+    <string name="teste_seus_conhecimentos_e_mostre_do_que_capaz">Teste seus conhecimentos e mostre do que é capaz</string>
+    <string name="geografia">Geografia</string>
+    <string name="matem_tica">Matemática</string>
+    <string name="hist_ria">História</string>
+    <string name="entretenimento">Entretenimento</string>
+    <string name="voltar">Voltar</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="anterior">Anterior</string>
+    <string name="checkbox">CheckBox</string>
+
+
+    <string-array name="entertainment_questions">
+        <item>Qual é o protagonista da série de jogos "The Legend of Zelda"?</item>
+        <item>Quem é o diretor do filme "Pulp Fiction"?</item>
+        <item>Qual é o nome do personagem principal do filme "O Senhor dos Anéis"?</item>
+        <item>Em que ano foi lançado o jogo "Super Mario Bros."?</item>
+        <item>Qual é o nome do vilão principal da série de jogos "Final Fantasy VII"?</item>
+        <item>Quem é o criador da série de jogos "Metal Gear Solid"?</item>
+        <item>Qual é o nome do personagem principal da série de jogos "Assassin's Creed"?</item>
+        <item>Quem é o protagonista da série de filmes "Harry Potter"?</item>
+        <item>Em qual jogo eletrônico a personagem Lara Croft é conhecida como uma arqueóloga aventureira?</item>
+        <item>Qual é o nome do estúdio que desenvolveu o jogo "The Witcher 3: Wild Hunt"?</item>
+    </string-array>
+    <string-array name="entertainment_answers_1">
+        <item>Mario</item> <!-- Incorreto -->
+        <item>Link</item> <!-- Correto -->
+        <item>Sonic</item> <!-- Incorreto -->
+        <item>Kratos</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_2">
+        <item>Quentin Tarantino</item> <!-- Correto -->
+        <item>Steven Spielberg</item> <!-- Incorreto -->
+        <item>Christopher Nolan</item> <!-- Incorreto -->
+        <item>Stanley Kubrick</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_3">
+        <item>Gandalf</item> <!-- Incorreto -->
+        <item>Frodo Bolseiro</item> <!-- Correto -->
+        <item>Aragorn</item> <!-- Incorreto -->
+        <item>Gollum</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_4">
+        <item>1983</item> <!-- Incorreto -->
+        <item>1984</item> <!-- Incorreto -->
+        <item>1985</item> <!-- Correto -->
+        <item>1986</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_5">
+        <item>Sephiroth</item> <!-- Correto -->
+        <item>Ganon</item> <!-- Incorreto -->
+        <item>Sin</item> <!-- Incorreto -->
+        <item>Kefka</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_6">
+        <item>Hideo Kojima</item> <!-- Correto -->
+        <item>Shigeru Miyamoto</item> <!-- Incorreto -->
+        <item>Yuji Naka</item> <!-- Incorreto -->
+        <item>Satoru Iwata</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_7">
+        <item>Ezio Auditore da Firenze</item> <!-- Incorreto -->
+        <item>Altair Ibn-La\'Ahad</item> <!-- Correto -->
+        <item>Connor Kenway</item> <!-- Incorreto -->
+        <item>Edward Kenway</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_8">
+        <item>Harry Potter</item> <!-- Correto -->
+        <item>Hermione Granger</item> <!-- Incorreto -->
+        <item>Ron Weasley</item> <!-- Incorreto -->
+        <item>Draco Malfoy</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_9">
+        <item>Uncharted</item> <!-- Incorreto -->
+        <item>Tomb Raider</item> <!-- Correto -->
+        <item>Prince of Persia</item> <!-- Incorreto -->
+        <item>Indiana Jones and the Fate of Atlantis</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="entertainment_answers_10">
+        <item>CD Projekt Red</item> <!-- Correto -->
+        <item>Naughty Dog</item> <!-- Incorreto -->
+        <item>Rockstar Games</item> <!-- Incorreto -->
+        <item>Ubisoft</item> <!-- Incorreto -->
+    </string-array>
+    <string name="score_message">Sua pontuação: %1$d/%2$d</string>
+    <string name="resposta_1">Resposta 1</string>
+    <string name="resposta_2">Resposta 2</string>
+    <string name="resposta_3">Resposta 3</string>
+    <string name="resposta_4">Resposta 4</string>
+
+
+    <string-array name="history_questions">
+        <item>Quem foi o primeiro presidente dos Estados Unidos?</item>
+        <item>Em que ano começou a Primeira Guerra Mundial?</item>
+        <item>Quem descobriu o Brasil?</item>
+        <item>Qual foi o imperador do Brasil durante a Proclamação da República?</item>
+        <item>Quem foi o primeiro presidente dos Estados Unidos?</item>
+        <item>Qual foi o evento que marcou o início da Revolução Francesa em 1789?</item>
+        <item>Quem foi o primeiro imperador romano?</item>
+        <item>Quem foi o último faraó do Antigo Egito?</item>
+        <item>Em que ano ocorreu a Revolução Francesa?</item>
+        <item>Quem foi o primeiro homem a pisar na Lua?</item>
+        <item>Quem foi o líder do movimento pelos direitos civis nos Estados Unidos?</item>
+    </string-array>
+
+    <string-array name="history_answers_1">
+        <item>George Washington</item> <!-- Correto -->
+        <item>Abraham Lincoln</item> <!-- Incorreto -->
+        <item>Thomas Jefferson</item> <!-- Incorreto -->
+        <item>John Adams</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_2">
+        <item>1918</item> <!-- Incorreto -->
+        <item>1939</item> <!-- Incorreto -->
+        <item>1945</item> <!-- Incorreto -->
+        <item>1914</item> <!-- Correto -->
+    </string-array>
+    <string-array name="history_answers_3">
+        <item>Cristóvão Colombo</item> <!-- Incorreto -->
+        <item>Vasco da Gama</item> <!-- Incorreto -->
+        <item>Pedro Álvares Cabral</item> <!-- Correto -->
+        <item>Amerígo Vespucci</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_4">
+        <item>Dom João VI</item> <!-- Incorreto -->
+        <item>Dom Pedro I</item> <!-- Incorreto -->
+        <item>Pedro II</item> <!-- Correto -->
+        <item>Deodoro da Fonseca</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_5">
+        <item>O Julgamento de Luís XVI</item> <!-- Incorreto -->
+        <item>A Queda da Bastilha</item> <!-- Correto -->
+        <item>A Proclamação da República</item> <!-- Incorreto -->
+        <item>A Declaração dos Direitos do Homem e do Cidadão</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_6">
+        <item>Júlio César</item> <!-- Correto -->
+        <item>Augusto</item> <!-- Incorreto -->
+        <item>Rômulo Augusto</item> <!-- Incorreto -->
+        <item>Calígula</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_7">
+        <item>Ramsés II</item> <!-- Incorreto -->
+        <item>Akhenaton</item> <!-- Incorreto -->
+        <item>Tutancâmon</item> <!-- Incorreto -->
+        <item>Cleópatra</item> <!-- Correto -->
+    </string-array>
+    <string-array name="history_answers_8">
+        <item>1789</item> <!-- Correto -->
+        <item>1804</item> <!-- Incorreto -->
+        <item>1799</item> <!-- Incorreto -->
+        <item>1815</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_9">
+        <item>Yuri Gagarin</item> <!-- Incorreto -->
+        <item>Buzz Aldrin</item> <!-- Incorreto -->
+        <item>Kalpana Chawla</item> <!-- Incorreto -->
+        <item>Neil Armstrong</item> <!-- Correto -->
+    </string-array>
+    <string-array name="history_answers_10">
+        <item>Rosa Parks</item> <!-- Incorreto -->
+        <item>Martin Luther King Jr.</item> <!-- Correto -->
+        <item>Malcolm X</item> <!-- Incorreto -->
+        <item>Barack Obama</item> <!-- Incorreto -->
+    </string-array>
+
+
+    <string-array name="geography_questions">
+        <item>Qual é a capital da França?</item>
+        <item>Qual é o rio mais longo do mundo?</item>
+        <item>Qual é o maior deserto do mundo?</item>
+        <item>Qual é o país com a maior área territorial?</item>
+        <item>Qual é o maior oceano do mundo?</item>
+        <item>Qual é o país mais populoso do mundo?</item>
+        <item>Qual é o maior país da América do Sul?</item>
+        <item>Qual é o país com o maior número de ilhas?</item>
+        <item>Qual é o ponto mais alto do mundo?</item>
+        <item>Qual é o maior lago do mundo em volume de água?</item>
+    </string-array>
+
+    <string-array name="geography_answers_1">
+        <item>Berlim</item> <!-- Incorreto -->
+        <item>Londres</item> <!-- Incorreto -->
+        <item>Paris</item> <!-- Correto -->
+        <item>Madrid</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_2">
+        <item>Amazonas</item> <!-- Incorreto -->
+        <item>Nilo</item> <!-- Correto -->
+        <item>Mississipi</item> <!-- Incorreto -->
+        <item>Yangtzé</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_3">
+        <item>Atacama</item> <!-- Incorreto -->
+        <item>Kalahari</item> <!-- Incorreto -->
+        <item>Gobi</item> <!-- Incorreto -->
+        <item>Saara</item> <!-- Correto -->
+    </string-array>
+    <string-array name="geography_answers_4">
+        <item>Canadá</item> <!-- Incorreto -->
+        <item>Rússia</item> <!-- Correto -->
+        <item>Estados Unidos</item> <!-- Incorreto -->
+        <item>China</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_5">
+        <item>Oceano Pacífico</item> <!-- Correto -->
+        <item>Oceano Atlântico</item> <!-- Incorreto -->
+        <item>Oceano Índico</item> <!-- Incorreto -->
+        <item>Oceano Ártico</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_6">
+        <item>Índia</item> <!-- Incorreto -->
+        <item>Estados Unidos</item> <!-- Incorreto -->
+        <item>Brasil</item> <!-- Incorreto -->
+        <item>China</item> <!-- Correto -->
+    </string-array>
+    <string-array name="geography_answers_7">
+        <item>Argentina</item> <!-- Incorreto -->
+        <item>Estados Unidos</item> <!-- Incorreto -->
+        <item>Brasil</item> <!-- Correto -->
+        <item>Canadá</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_8">
+        <item>Indonésia</item> <!-- Correto -->
+        <item>Filipinas</item> <!-- Incorreto -->
+        <item>Finlândia</item> <!-- Incorreto -->
+        <item>Japão</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_9">
+        <item>K2</item> <!-- Incorreto -->
+        <item>Monte Everest</item> <!-- Correto -->
+        <item>Kangchenjunga</item> <!-- Incorreto -->
+        <item>Lhotse</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="geography_answers_10">
+        <item>Lago Superior</item> <!-- Incorreto -->
+        <item>Lago Vitória</item> <!-- Incorreto -->
+        <item>Lago Baikal</item> <!-- Correto -->
+        <item>Lago Michigan</item> <!-- Incorreto -->
+    </string-array>
+
+
+    <string-array name="math_questions">
+        <item>Qual é o resultado de 1 + 1 + 1 – 1 * 1?</item>
+        <item>Quanto é 10 – 3 * 2?</item>
+        <item>Qual é o próximo número na sequência: 1, 4, 9, 16, …?</item>
+        <item>Quantos triângulos existem em um pentágono?</item>
+        <item>Qual é o resultado de 0 ÷ 0?</item>
+        <item>Se um relógio marca 2 horas a mais do que o correto a cada 24 horas, quanto tempo ele marcará depois de 10 dias?</item>
+        <item>Quantos lados tem um círculo?</item>
+        <item>Se você tem 3 maçãs e 4 laranjas, quantas frutas você tem?</item>
+        <item>Qual é o resultado de 2 elevado à 3?</item>
+        <item>Quantos buracos existem em uma rosquinha?</item>
+    </string-array>
+
+    <string-array name="math_answers_1">
+        <item>1</item> <!-- Correto -->
+        <item>2</item> <!-- Incorreto -->
+        <item>3</item> <!-- Incorreto -->
+        <item>4</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_2">
+        <item>4</item> <!-- Correto -->
+        <item>6</item> <!-- Incorreto -->
+        <item>8</item> <!-- Incorreto -->
+        <item>10</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_3">
+        <item>20</item> <!-- Incorreto -->
+        <item>24</item> <!-- Incorreto -->
+        <item>25</item> <!-- Correto -->
+        <item>32</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_4">
+        <item>5</item> <!-- Correto -->
+        <item>10</item> <!-- Incorreto -->
+        <item>15</item> <!-- Incorreto -->
+        <item>20</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_5">
+        <item>Indeterminado</item> <!-- Correto -->
+        <item>Infinito</item> <!-- Incorreto -->
+        <item>0</item> <!-- Incorreto -->
+        <item>1</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_6">
+        <item>2 horas a mais</item> <!-- Correto -->
+        <item>10 horas a mais</item> <!-- Incorreto -->
+        <item>20 horas a mais</item> <!-- Incorreto -->
+        <item>1 dia a mais</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_7">
+        <item>Infinito</item> <!-- Incorreto -->
+        <item>0</item> <!-- Correto -->
+        <item>1</item> <!-- Incorreto -->
+        <item>2</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_8">
+        <item>3</item> <!-- Incorreto -->
+        <item>5</item> <!-- Incorreto -->
+        <item>7</item> <!-- Correto -->
+        <item>12</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_9">
+        <item>5</item> <!-- Incorreto -->
+        <item>6</item> <!-- Incorreto -->
+        <item>8</item> <!-- Correto -->
+        <item>10</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="math_answers_10">
+        <item>Infinito</item> <!-- Incorreto -->
+        <item>0</item> <!-- Incorreto -->
+        <item>1</item> <!-- Correto -->
+        <item>2</item> <!-- Incorreto -->
+    </string-array>
+
+</resources>

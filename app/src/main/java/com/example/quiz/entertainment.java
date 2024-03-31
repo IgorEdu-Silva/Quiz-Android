@@ -18,12 +18,9 @@ public class entertainment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_entertainment, container, false);
 
         ImageButton buttonToQuizEntertainment = view.findViewById(R.id.buttonToQuizEntertainment);
-        buttonToQuizEntertainment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), quizEntertainment.class);
-                startActivity(intent);
-            }
+        buttonToQuizEntertainment.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), quizEntertainment.class);
+            startActivity(intent);
         });
 
         return view;

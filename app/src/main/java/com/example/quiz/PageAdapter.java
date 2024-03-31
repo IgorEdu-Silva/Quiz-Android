@@ -23,6 +23,7 @@ public class PageAdapter extends FragmentStateAdapter {
             case 3:
                 return new entertainment();
             default:
+                assert false : "Índice inválido para criar um Fragment";
                 return null;
         }
     }

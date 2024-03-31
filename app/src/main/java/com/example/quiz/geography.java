@@ -17,13 +17,10 @@ public class geography extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_geography, container, false);
 
-        ImageButton buttonToQuizEntertainment = view.findViewById(R.id.buttonToQuizGeography);
-        buttonToQuizEntertainment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), quizGeography.class);
-                startActivity(intent);
-            }
+        ImageButton buttonToQuizGeography = view.findViewById(R.id.buttonToQuizGeography);
+        buttonToQuizGeography.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), quizGeography.class);
+            startActivity(intent);
         });
 
         return view;

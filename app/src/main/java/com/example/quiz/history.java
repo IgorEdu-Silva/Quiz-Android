@@ -17,13 +17,10 @@ public class history extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_history, container, false);
 
-        ImageButton buttonToQuizEntertainment = view.findViewById(R.id.buttonToQuizHistory);
-        buttonToQuizEntertainment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), quizHistory.class);
-                startActivity(intent);
-            }
+        ImageButton buttonToQuizHistory = view.findViewById(R.id.buttonToQuizHistory);
+        buttonToQuizHistory.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), quizHistory.class);
+            startActivity(intent);
         });
 
         return view;

@@ -29,13 +29,8 @@
             android:exported="false"
             android:theme="@style/Theme.Quiz.NoActionBar"/>
         <activity
-            android:name=".SelectGame"
-            android:exported="false"
-            android:theme="@style/Theme.Quiz.NoActionBar"/>
-        <activity
-            android:name=".introductionOfGame"
+            android:name=".Quiz"
             android:exported="true"
-            android:label="@string/title_activity_select_game"
             android:theme="@style/Theme.Quiz.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

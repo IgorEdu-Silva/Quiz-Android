@@ -6,13 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class quizHistory extends AppCompatActivity {
 
@@ -22,7 +19,7 @@ public class quizHistory extends AppCompatActivity {
     private int currentQuestionIndex = 0;
     private ProgressBar progressBar;
     private final int[] selectedAnswers = new int[10];
-    private final int[] correctAnswers = {0, 3, 2, 2, 1, 0, 3, 0, 3, 1};
+    private final int[] correctAnswers = {0, 3, 2, 2, 1, 0, 3, 0, 3, 3};
     private RadioButton[] answerRadioButtons;
     private boolean pontuacaoAtingida;
 
@@ -33,7 +30,7 @@ public class quizHistory extends AppCompatActivity {
 
         Button btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(v -> {
-            Intent intent = new Intent(quizHistory.this, SelectGame.class);
+            Intent intent = new Intent(quizHistory.this, Quiz.class);
             startActivity(intent);
         });
 
@@ -135,6 +132,7 @@ public class quizHistory extends AppCompatActivity {
         Button btnBack = findViewById(R.id.btnBack);
         Button btnNext = findViewById(R.id.btnNext);
         Button btnPrevious = findViewById(R.id.btnPrevious);
+        RadioGroup answerRadioGroup = findViewById(R.id.answerRadioGroup);
 
         if (pontuacaoAtingida) {
             btnBack.setVisibility(View.VISIBLE);
@@ -143,6 +141,8 @@ public class quizHistory extends AppCompatActivity {
             btnNext.setEnabled(false);
             btnPrevious.setVisibility(View.INVISIBLE);
             btnPrevious.setEnabled(false);
+            answerRadioGroup.setVisibility(View.INVISIBLE);
+            answerRadioGroup.setEnabled(false);
         } else {
             btnBack.setVisibility(View.INVISIBLE);
             btnBack.setEnabled(false);
@@ -150,8 +150,11 @@ public class quizHistory extends AppCompatActivity {
             btnNext.setEnabled(true);
             btnPrevious.setVisibility(View.VISIBLE);
             btnPrevious.setEnabled(true);
+            answerRadioGroup.setVisibility(View.VISIBLE);
+            answerRadioGroup.setEnabled(true);
         }
     }
+
 
 
     private void clearRadioButtons() {

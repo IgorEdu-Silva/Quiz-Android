@@ -1,15 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Quiz</string>
-    <string name="title_activity_select_game">SelectGame</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="textview">TextView</string>
-    <string name="est_preparado">Está preparado?</string>
-    <string name="vamos_come_ar">vamos começar?</string>
-    <string name="divirta_se">Divirta-se</string>
-    <string name="teste_seus_conhecimentos_e_mostre_do_que_capaz">Teste seus conhecimentos e mostre do que é capaz</string>
     <string name="geografia">Geografia</string>
     <string name="matem_tica">Matemática</string>
     <string name="hist_ria">História</string>
@@ -17,7 +9,6 @@
     <string name="voltar">Voltar</string>
     <string name="pr_ximo">Próximo</string>
     <string name="anterior">Anterior</string>
-    <string name="checkbox">CheckBox</string>
 
 
     <string-array name="entertainment_questions">
@@ -104,13 +95,12 @@
         <item>Em que ano começou a Primeira Guerra Mundial?</item>
         <item>Quem descobriu o Brasil?</item>
         <item>Qual foi o imperador do Brasil durante a Proclamação da República?</item>
-        <item>Quem foi o primeiro presidente dos Estados Unidos?</item>
-        <item>Qual foi o evento que marcou o início da Revolução Francesa em 1789?</item>
+        <item>O que marcou o início da Segunda Guerra Mundial?</item>
+        <item>Qual evento marcou o início da Revolução Francesa em 1789?</item>
         <item>Quem foi o primeiro imperador romano?</item>
         <item>Quem foi o último faraó do Antigo Egito?</item>
         <item>Em que ano ocorreu a Revolução Francesa?</item>
         <item>Quem foi o primeiro homem a pisar na Lua?</item>
-        <item>Quem foi o líder do movimento pelos direitos civis nos Estados Unidos?</item>
     </string-array>
 
     <string-array name="history_answers_1">
@@ -126,8 +116,8 @@
         <item>1914</item> <!-- Correto -->
     </string-array>
     <string-array name="history_answers_3">
-        <item>Cristóvão Colombo</item> <!-- Incorreto -->
         <item>Vasco da Gama</item> <!-- Incorreto -->
+        <item>Cristóvão Colombo</item> <!-- Incorreto -->
         <item>Pedro Álvares Cabral</item> <!-- Correto -->
         <item>Amerígo Vespucci</item> <!-- Incorreto -->
     </string-array>
@@ -138,40 +128,40 @@
         <item>Deodoro da Fonseca</item> <!-- Incorreto -->
     </string-array>
     <string-array name="history_answers_5">
-        <item>O Julgamento de Luís XVI</item> <!-- Incorreto -->
+        <item>O Ataque a Pearl Harbor</item> <!-- Incorreto -->
+        <item>A Invasão da Polônia</item> <!-- Correto -->
+        <item>O Bombardeio de Hiroshima</item> <!-- Incorreto -->
+        <item>O Desembarque na Normandia</item> <!-- Incorreto -->
+    </string-array>
+    <string-array name="history_answers_6">
         <item>A Queda da Bastilha</item> <!-- Correto -->
+        <item>O Julgamento de Luís XVI</item> <!-- Incorreto -->
         <item>A Proclamação da República</item> <!-- Incorreto -->
         <item>A Declaração dos Direitos do Homem e do Cidadão</item> <!-- Incorreto -->
     </string-array>
-    <string-array name="history_answers_6">
-        <item>Júlio César</item> <!-- Correto -->
+    <string-array name="history_answers_7">
         <item>Augusto</item> <!-- Incorreto -->
         <item>Rômulo Augusto</item> <!-- Incorreto -->
         <item>Calígula</item> <!-- Incorreto -->
+        <item>Júlio César</item> <!-- Correto -->
     </string-array>
-    <string-array name="history_answers_7">
+    <string-array name="history_answers_8">
+        <item>Cleópatra</item> <!-- Correto -->
         <item>Ramsés II</item> <!-- Incorreto -->
         <item>Akhenaton</item> <!-- Incorreto -->
         <item>Tutancâmon</item> <!-- Incorreto -->
-        <item>Cleópatra</item> <!-- Correto -->
     </string-array>
-    <string-array name="history_answers_8">
-        <item>1789</item> <!-- Correto -->
+    <string-array name="history_answers_9">
         <item>1804</item> <!-- Incorreto -->
         <item>1799</item> <!-- Incorreto -->
         <item>1815</item> <!-- Incorreto -->
-    </string-array>
-    <string-array name="history_answers_9">
-        <item>Yuri Gagarin</item> <!-- Incorreto -->
-        <item>Buzz Aldrin</item> <!-- Incorreto -->
-        <item>Kalpana Chawla</item> <!-- Incorreto -->
-        <item>Neil Armstrong</item> <!-- Correto -->
+        <item>1789</item> <!-- Correto -->
     </string-array>
     <string-array name="history_answers_10">
-        <item>Rosa Parks</item> <!-- Incorreto -->
-        <item>Martin Luther King Jr.</item> <!-- Correto -->
-        <item>Malcolm X</item> <!-- Incorreto -->
-        <item>Barack Obama</item> <!-- Incorreto -->
+        <item>Yuri Gagarin</item> <!-- Incorreto -->
+        <item>Kalpana Chawla</item> <!-- Incorreto -->
+        <item>Buzz Aldrin</item> <!-- Incorreto -->
+        <item>Neil Armstrong</item> <!-- Correto -->
     </string-array>
 
 

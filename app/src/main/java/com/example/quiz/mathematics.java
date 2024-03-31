@@ -17,13 +17,10 @@ public class mathematics extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_mathematics, container, false);
 
-        ImageButton buttonToQuizEntertainment = view.findViewById(R.id.buttonToQuizMathematics);
-        buttonToQuizEntertainment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), quizMathematics.class);
-                startActivity(intent);
-            }
+        ImageButton buttonToQuizMathematics = view.findViewById(R.id.buttonToQuizMathematics);
+        buttonToQuizMathematics.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), quizMathematics.class);
+            startActivity(intent);
         });
 
         return view;
